@@ -1,0 +1,79 @@
+{
+	"$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+	"description": "Schema for capturing the context of key learning events on lrng.",
+	"self": {
+		"vendor": "org.lrng",
+		"name": "resource_event",
+		"format": "jsonschema",
+		"version": "1-0-0"
+	},
+
+	"type": "object",
+	"properties": {
+		"baseType": {
+			"type": "string"
+		},
+		"resource": {
+			"type": "string"
+		},
+		"resourceId": {
+			"type": "integer"
+		},
+		"verb": {
+			"type": "string"
+		},
+		"action": {
+			"type": "string"
+		},
+		"detail": {
+			"type": "object"
+		},
+		"actorId": {
+			"type": "integer"
+		},
+		"actorType": {
+			"type": "string"
+		},
+		"actorAffiliation": {
+			"type": "string"
+		},
+		"resourceType": {
+			"type": "string"
+		},
+		"resourceCategory": {
+			"type": "string"
+		},
+		"evalResult": {
+			"type": "string"
+		},
+		"parentType": {
+			"type": "string"
+		},
+		"parentId": {
+			"type": "integer"
+		},
+		"creatorType": {
+			"type": "string"
+		}
+		"creatorId": {
+			"type": "integer"
+		},
+		"youthOwnerId": {
+			"type": "integer"
+		},
+		"evaluatorId": {
+			"type": "integer"
+		},
+		"version": {
+			"type": "string"
+		},
+		"tagManagerVersion": {
+			"type": "integer"
+		},
+		
+		"required": ["baseType", "resource", "resourceId", "verb", "action", "detail", "actorId", "actorType", 
+			"actorAffiliation", "resourceType", "resourceCategory", "evalResult", "parentType", "parentId", 
+			"creatorType", "creatorId", "youthOwnerId", "evaluatorId", "version", "tagManagerVersion"],
+
+		"additionalProperties": "true"
+}

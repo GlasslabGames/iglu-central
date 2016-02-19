@@ -1,0 +1,46 @@
+{
+	"$schema": "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+	"description": "Schema for capturing user activity on lrng and associating that activity with key lrng resources",
+	"self": {
+		"vendor": "org.lrng",
+		"name": "user_activity",
+		"format": "jsonschema",
+		"version": "1-0-0"
+	},
+
+	"type": "object",
+	"properties": {
+		"baseType": {
+			"type": "string"
+		},
+		"resource": {
+			"type": "string"
+		},
+		"resourceId": {
+			"type": "integer"
+		},
+		"category": {
+			"type": "string"
+		},
+		"action": {
+			"type": "string"
+		},
+		"label": {
+			"type": "string"
+		},
+		"value": {
+			"type": "number"
+		},
+		"detail": {
+			"type": "object"
+		},
+		"version": {
+			"type": "string"
+		},
+		"tagManagerVersion": {
+			"type": "integer"
+		},
+
+		"required": ["baseType", "resource", "resourceId", "category", "action", "label", "value", "detail", "version", "tagManagerVersion"],
+		"additionalProperties": "true"
+}
