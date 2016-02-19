@@ -32,7 +32,7 @@
 			"type": "number"
 		},
 		"detail": {
-			"type": "object"
+			"type": "string"
 		},
 		"version": {
 			"type": "string"
