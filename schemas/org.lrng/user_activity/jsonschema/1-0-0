@@ -39,8 +39,8 @@
 		},
 		"tagManagerVersion": {
 			"type": "integer"
-		},
-
-		"required": ["baseType", "resource", "resourceId", "category", "action", "label", "value", "detail", "version", "tagManagerVersion"],
-		"additionalProperties": "true"
+		}
+	},
+	"required": ["baseType", "resource", "resourceId", "category", "action", "label", "value", "detail", "version", "tagManagerVersion"],
+	"additionalProperties": "true"
 }

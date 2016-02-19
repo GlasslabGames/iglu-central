@@ -54,7 +54,7 @@
 		},
 		"creatorType": {
 			"type": "string"
-		}
+		},
 		"creatorId": {
 			"type": "integer"
 		},
@@ -69,11 +69,10 @@
 		},
 		"tagManagerVersion": {
 			"type": "integer"
-		},
-		
-		"required": ["baseType", "resource", "resourceId", "verb", "action", "detail", "actorId", "actorType", 
-			"actorAffiliation", "resourceType", "resourceCategory", "evalResult", "parentType", "parentId", 
+		}
+	},
+	"required": ["baseType", "resource", "resourceId", "verb", "action", "detail", "actorId", "actorType",
+			"actorAffiliation", "resourceType", "resourceCategory", "evalResult", "parentType", "parentId",
 			"creatorType", "creatorId", "youthOwnerId", "evaluatorId", "version", "tagManagerVersion"],
-
-		"additionalProperties": "true"
+	"additionalProperties": "true"
 }
