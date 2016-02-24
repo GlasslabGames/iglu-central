@@ -42,5 +42,5 @@
 		}
 	},
 	"required": ["baseType", "resource", "resourceId", "category", "action", "label", "value", "detail", "version", "tagManagerVersion"],
-	"additionalProperties": "true"
+	"additionalProperties": true
 }

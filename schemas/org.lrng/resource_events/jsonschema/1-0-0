@@ -74,5 +74,5 @@
 	"required": ["baseType", "resource", "resourceId", "verb", "action", "detail", "actorId", "actorType",
 			"actorAffiliation", "resourceType", "resourceCategory", "evalResult", "parentType", "parentId",
 			"creatorType", "creatorId", "youthOwnerId", "evaluatorId", "version", "tagManagerVersion"],
-	"additionalProperties": "true"
+	"additionalProperties": true
 }
