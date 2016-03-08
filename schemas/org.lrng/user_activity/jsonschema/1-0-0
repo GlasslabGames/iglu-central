@@ -38,7 +38,7 @@
 			"type": "string"
 		},
 		"tagManagerVersion": {
-			"type": "integer"
+			"type": "string"
 		}
 	},
 	"required": ["baseType", "category", "action", "label", "version", "tagManagerVersion"],
