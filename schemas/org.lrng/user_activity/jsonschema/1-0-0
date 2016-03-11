@@ -19,6 +19,12 @@
 		"resourceId": {
 			"type": "integer"
 		},
+		"parentType": {
+		    "type": "string"
+		},
+		"parentId": {
+			"type": "integer"
+		},
 		"category": {
 			"type": "string"
 		},
