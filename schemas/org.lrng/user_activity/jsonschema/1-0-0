@@ -40,9 +40,6 @@
 		"detail": {
 			"type": "object"
 		},
-		"version": {
-			"type": "string"
-		},
 		"tagManagerVersion": {
 			"type": "string"
 		}
